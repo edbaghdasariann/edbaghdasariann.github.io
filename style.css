@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.general{
+    width: 100%;
+    min-height: 200vh;
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fornav{
+    width: 95%;
+    height: 100px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(2, 77, 2);
+}
+
+
+.navleft{
+    width: 40%;
+    height: 70px;
+    /* border: 1px solid white; */
+    color: rgb(3, 94, 3);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: rgb(7, 162, 7);
+}
+
+
+.navright{
+    width: 55%;
+    height: 70px;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menutext{
+    color: rgb(3, 94, 3);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menutext1{
+    color: rgb(2, 77, 2);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    display: none;
+    cursor: pointer;
+
+}
+
+
+.menutext:hover{
+    color: rgb(7, 162, 7);
+}
+
+
+.forsection1{
+    width: 100%;
+    height: 1200px;
+    background-color: rgb(0, 0, 0);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section1{
+    width: 1620px;
+    height: 1100px;
+    background-color: rgb(30, 29, 29);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(2, 77, 2);
+
+}
+
+.forsc1{
+    width: 1400px;
+    height: 1000px;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.sc1_1{
+    width: 1400px;
+    height: 300px;
+    background-color: rgb(54, 54, 54);
+    border-radius: 25px;
+    border: 5px solid rgb(2, 77, 2);
+    background: url(https://www.morningstar.co.uk/static/UploadManager/Assets/US%20dollars%20wide%20article.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+.sc1_2{
+    width: 1400px;
+    height: 300px;
+    border: 3px solid rgb(2, 77, 2);
+    background-color: rgb(54, 54, 54);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sc1_3{
+    width: 1400px;
+    height: 300px;
+    border: 3px solid rgb(2, 77, 2);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sc1_2_1{
+    width: 420px;
+    height: 270px;
+    border: 5px solid rgb(3, 94, 3);
+    border-radius: 25px;
+    background: url(https://www.bankofthewest.com/-/media/Project/BOTW/DotCom/BOTW/images/promos/one-percent-app-card-leaves.jpg?h=750&iar=0&w=750&sc_lang=en&hash=E2638AFBF72FBF3E6890ED9CDAB3BA68);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.sc1_2_2{
+    width: 420px;
+    height: 270px;
+    border: 5px solid rgb(3, 94, 3);
+    border-radius: 25px;
+    background: url(https://www.bankofthewest.com/-/media/Project/BOTW/DotCom/BOTW/images/promos/sme-business-debit-card.jpg?h=750&iar=0&w=750&sc_lang=en&hash=16FAD26B0399ECA159D1A9B953635733);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.sc1_2_3{
+    width: 420px;
+    height: 270px;
+    border: 5px solid rgb(3, 94, 3);
+    border-radius: 25px;
+    background: url(https://www.northeastonsavingsbank.com/application/files/thumbnails/custom_510x510_proportional_2x/8316/6869/5820/22-NESB-Card-Stacked-large.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    
+}
+
+.sc1_2_1:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+
+.sc1_2_2:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+
+.sc1_2_3:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+
+.sc1_1:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+.sc1_3:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+
+.section1:hover{
+    border: 5px solid rgb(0, 165, 0);
+
+}
+
+
+.fornav:hover{
+    border: 5px solid rgb(0, 165, 0);
+
+}
+
+.sc1_3_1{
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(2, 77, 2);
+    border-radius: 25px;
+    color: rgb(0, 165, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 70px;
+}
+
+.sc1_3_2{
+    width: 500px;
+    height: 270px;
+    border: 5px solid rgb(2, 77, 2);
+    border-radius: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(0, 165, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+}
+
+.sc1_3_3{
+    width: 300px;
+    height: 200px;
+    border: 5px solid rgb(2, 77, 2);
+    border-radius: 25px;
+    color: rgb(0, 165, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+
+
+}
+
+.sc1_3_1:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+.sc1_3_2:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+.sc1_3_3:hover{
+    border: 5px solid rgb(0, 165, 0);
+}
+
+
+.forsection2{
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.section2{
+    width: 1200px;
+    height: 400px;
+    
+}
+
+
+
+@media screen and (max-width:1500px){
+    
+    .sc1_1{
+        display: none;
+    }
+
+    .sc1_2{
+        width: 700px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forsc1{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+    .sc1_3{
+        display: none;
+    }
+
+    .section1{
+        width: 1000px;
+        height: 900px;
+    }
+
+
+    .sc1_2_1{
+        width: 300px;
+        height: 200px;
+    }
+
+    .sc1_2_2{
+        width: 300px;
+        height: 200px;
+    }
+
+    .sc1_2_3{
+        width: 300px;
+        height: 200px;
+    }
+
+   
+
+}
+
+
+@media screen and (max-width:1300px){
+   .menutext{
+    display: none;
+   } 
+
+   .menutext1{
+    display:flex
+   }
+   
+
+   .navright{
+    display: flex;
+    justify-content: end;
+   }
+
+}
+
+
+
+@media screen and (max-width:900px){
+    .sc1_2{
+        width: 500px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forsc1{
+        width: 600px;
+    }
+ 
+ }
+
+
+
+ @media screen and (max-width:600px){
+    .sc1_2{
+        width: 300px;
+        height: 800px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .forsc1{
+        width: 200px;
+    }
+ 
+
+
+    .sc1_2_1{
+        width: 250px;
+        height: 200px;
+    }
+
+    .sc1_2_2{
+        width: 250px;
+        height: 200px;
+    }
+
+    .sc1_2_3{
+        width: 250px;
+        height: 200px;
+    }
+
+
+
+ }
+
+
+.forsection3{
+    width: 100%;
+    min-height: 400px;
+    /* border: 1px solid rgb(198, 18, 18); */
+    display: flex;
+
+    background-color: rgb(30, 29, 29);
+
+}
+
+.sc3left{
+    width: 50%;
+    height: 400px;
+    /* border: 1px solid rgb(198, 18, 18); */
+
+}
+
+.sc3right{
+    width: 50%;
+    min-height: 400px;
+    /* border: 1px solid rgb(198, 18, 18); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(30, 29, 29);
+
+
+}
+
+
+.forfooterup{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid violet; */
+    color: rgb(2, 77, 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+
+.forfooterdown{
+    width: 100%;
+    height: 200px;
+    /* border: 1px solid violet; */
+    color: rgb(2, 77, 2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 40px;
+}
+
+.green{
+    color: rgb(2, 77, 2);
+}
+
+.hamar{
+    width: 320px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+
+iframe{
+    width: 600px;
+    height: 350px;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .forsection3{
+        
+      
+        /* border: 1px solid rgb(198, 18, 18); */
+       
+        flex-direction: column;
+        background-color: rgb(30, 29, 29);
+        display: flex;
+        align-items: center;
+
+
+
+    }
+ }
+ 
